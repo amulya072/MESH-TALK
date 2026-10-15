@@ -1,0 +1,17 @@
+{
+  "name": "meshtalk",
+  "version": "1.1.0",
+  "description": "Serverless-style group chat: WebRTC peer-to-peer mesh with a tiny signaling server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["webrtc", "p2p", "chat", "websocket"],
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.21.1"
+  }
+}
